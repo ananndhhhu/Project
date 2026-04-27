@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+                        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">       
+                        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="style.css">
+
+
+<style>
+
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    
+
+
+    
+}
+
+.main{
+
+   position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  
+}
+
+.col {
+    padding: 20px;
+    text-align: center;
+    color:white;
+    
+    
+}
+
+.btn{
+
+      background-color: red;
+      color: white;
+      padding-bottom: 13px;
+      padding-top: 10px;
+
+      padding-left: 40px;
+      padding-right: 40px;
+      font-size: 13px;
+      margin-left: 10px;
+      margin-bottom: 5px;
+
+
+}
+
+i{
+
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+#order{
+
+  font-weight: bold;
+  
+
+}
+
+
+#browse{
+
+
+  color: black;
+  margin-right: 700px;
+  margin-top: 100px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+}
+h6{
+
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+/* IMAGE */
+
+
+    
+
+
+
+h5{
+  color: black;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 20px;
+}
+
+#EPICBUCKETOFTHEDAY{
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color:black;
+}
+
+.card img {
+      height: 200px;
+    
+      
+    }
+    .big-card img {
+      
+      height: 385px;
+      
+
+     
+    }
+
+ 
+</style>
+     
+</head>
+
+<body>
+
+ 
+
+<!-- Nav bar -->
+
+
+<div class="main">
+<nav class="navbar navbar-expand-lg navbar-light " style=" background-color: white;padding-top: 60px;">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#" style="color: red;font-size: 40px;font-style:italic; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;margin-left: 100px;">KFC</a>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#" style="font-weight: bold;">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"style="font-weight: bold;">Deals</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <i class="fa-solid fa-user"></i>
+        <a class="nav-link" href="#" style="color: black; ">Sign In</a>
+        <i class="fa-solid fa-cart-arrow-down" style="margin-right: 200px;"></i>
+      </form>
+    </div>
+  </div>
+</nav>
+</div>
+
+
+<div class="row">
+  <div class="col" style="background-color: #202124; height: 80px; margin-top: 140px;">
+  <h7 id="order">LET'S ORDER FOR DELIVERY, PICK UP, OR DINE-IN</h7>
+    <button type="button" class="btn rounded-pill">Start Order</button>
+</div>
+
+
+
+
+<!-- Main -->
+
+
+  <div class="row">
+    <div class="col" id="browse">
+        <h3>BROWSE MENU CATEGORIES</h3>
+    </div>
+    </div>
+
+
+
+    <!-- Images -->
+ 
+
+
+<div class="container " style="width: 75%;">
+  
+
+  <div class="row g-4">
+
+    <!-- Left Big Card -->
+    <div class="col-md-6" >
+      <div class="card big-card "style="width: 31rem; border:none;background-color: #f8f7f5; ">
+        <img src="EPIC .webp" class="card-img-top" alt="">
+        <div class="card-body text-center">
+          <h5 style="padding:40px;">EPIC BUCKET OF THE DAY</h5>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Side Grid -->
+    <div class="col-md-6">
+      <div class="row g-3" >
+
+        <div class="col-6" >
+          <div class="card" style="width: 15rem;height: 100%;border:none;background-color: #f8f7f5;margin-right: 5px; ">
+            <img src="Golden edition.webp" class="card-img-top">
+            <div class="card-body text-center">
+              <h6>GOLD EDITION</h6>
+            </div>
+          </div>
+        </div>
+      
+        <div class="col-6">
+          <div class="card"style="width: 15rem;height: 100%;border:none;background-color: #f8f7f5;  ">
+            <img src="KFC-Box-Meals.webp" class="card-img-top">
+            <div class="card-body text-center">
+              <h6>BOX MEALS</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="card"style="width: 15rem;height: 100%;border:none; background-color: #f8f7f5;">
+            <img src="KFC-Variety-Bucket.webp" class="card-img-top">
+            <div class="card-body text-center">
+              <h6>VARIETY BUCKETS</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="card"style="width: 15rem;height: 100%;border:none; background-color: #f8f7f5;">
+            <img src="KFC-Veg.webp" class="card-img-top">
+            <div class="card-body text-center">
+              <h6>VEG</h6>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+<div class="row" style="margin-top: 15px;margin-right: 1px;" >
+<div class="col-3">
+          <div class="card"style="width: 15rem;height: 100%;border:none; background-color: #f8f7f5;">
+            <img src="KFC-White-Chicken-Bucket.webp" class="card-img-top">
+            <div class="card-body text-center">
+              <h6>CHICKEN BUCKETS</h6>
+            </div>
+          </div>
+        </div>
+
+<div class="col-3">
+          <div class="card"style="width: 15rem;height: 100%;border:none; background-color: #f8f7f5;">
+            <img src="KFC-Burger.webp" class="card-img-top">
+            <div class="card-body text-center">
+              <h6>BURGERS</h6>
+            </div>
+          </div>
+        </div>
+
+<div class="col-3">
+          <div class="card"style="width:15rem;height: 100%;border:none;background-color: #f8f7f5;margin-left: 5px; ">
+            <img src="CAT89.webp" class="card-img-top">
+            <div class="card-body text-center">
+              <h6>SNACKS</h6>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-3">
+          <div class="card"style="width: 15rem;height: 100%;border:none;background-color: #f8f7f5;margin-left: 5px;">
+            <img src="KFC-rice-bowl.webp" class="card-img-top">
+            <div class="card-body text-center">
+              <h6>RICE BOWLS</h6>
+            </div>
+          </div>
+        </div>
+</div>
+
+
+<div class="row" style="margin-top: 20px;">
+  <div class="col-2" style="" >
+          <div class="card"style="width:238px;height: 100%;border:none;background-color: #f8f7f5;">
+            <img src="KFC-Beverages.webp" class="card-img-top">
+            <div class="card-body text-center">
+              <h6>BEVERAGES & DESSERTS</h6>
+            </div>
+          </div>
+        </div>
+
+<div class="col-9" style="background-color: #f8f7f5;margin-left: 73px;" ><img src="Finger_lickInDesk.a7d05386.svg">
+
+
+</div>
+</div>
+
+
+
+</div>
+
+</div>
+
+
+  
+
+
+
+
+
+
+
+<div class="row"style="background-color: #202124; ">
+
+  <div class="col" style="margin-left: 100px;width: 100%;">
+    
+
+    
+  <ul style="color: white;">
+      <p>Legal</p>
+      <p>Terms and <br>Conditions</p>
+       <p>Privacy Center</p>
+        <p>Disclaimer</p>
+         <p>Caution Notice</p>
+  </ul>
+</div>
+
+<div class="col">
+   <ul style="color: white;">
+      <p>KFC India</p>
+      <p>About KFC</p>
+       <p>KFC Care</p>
+        <p>careers</p>
+         <p>Our Golden Past </p>
+         <p>Responsible</p>
+         <p>Disclosure</p>
+</div>
+
+
+<div class="col">
+   <ul style="color: white;">
+      <p>KFC Food</p>
+      <p>Menu</p>
+       <p>Order Lookup</p>
+        <p>Gift Card</p>
+         <p>Nutrition &<br>Allergen</p>
+         <p>Responsible</p>
+         <p>Disclosure</p>
+</div>
+
+<div class="col">
+   <ul style="color: white;">
+      <p>Support</p>
+      <p>Get Help</p>
+       <p>Contact Us</p>
+        <p>KFC Feedback</p>
+         <p>Privacy Center</p>
+
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+</body>
+</html>
